@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+footer{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+#Logo{
+    
+    width: 150px;
+    height: auto;
+}
+
+span{
+    margin-top: 30px;
+    font-family:'kadam thmor pro' sans-serif;
+    color: aliceblue;
+}
+
+.footer-nav{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .footer-nav{
+        display: block;
+    }
+
+    .footer-list{
+        display: block
+    }
+};
